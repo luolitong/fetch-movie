@@ -55,7 +55,7 @@ def sort_by_wanted_num(years,diff_year):
     return years,diff_year_sorted
 
 
-def write_info_to_xls(year,diff_year,path):
+def write_info_to_xls(years,diff_year,path):
     wb=openpyxl.Workbook()
     sheet_index=0
     for year in years:
